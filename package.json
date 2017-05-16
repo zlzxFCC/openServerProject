@@ -1,0 +1,49 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "gulp demo",
+  "main": "index.js",
+  "scripts": {
+    "clean": "grulp task:clean",
+    "concat": "grulp task:concat",
+    "build": "gulp"
+  },
+  "keywords": [
+    "gulp",
+    "demo"
+  ],
+  "author": "jsonchou",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "browser-sync": "^2.17.6",
+    "cross-spawn": "^5.0.1",
+    "del": "^2.2.2",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^1.3.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.2",
+    "gulp-newer": "^1.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "merge-stream": "^1.0.0",
+    "node-sass": "^3.13.0",
+    "run-sequence": "^1.2.2",
+    "through2": "^2.0.3"
+  }
+}
